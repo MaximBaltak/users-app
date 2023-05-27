@@ -26,6 +26,7 @@ const usersSlice = createSlice({
     })
     builder.addCase(getUsersList.rejected, (state, action) => {
       console.log(action.payload)
+
     })
   },
 })
