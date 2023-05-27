@@ -25,7 +25,8 @@ const usersSlice = createSlice({
       state.users = action.payload
     })
     builder.addCase(getUsersList.rejected, (state, action) => {
-      console.error(action.payload)
+      console.log(action.payload)
+
     })
   },
 })
