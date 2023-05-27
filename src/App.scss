@@ -1,0 +1,15 @@
+.App {
+  background: none;
+  height: 100%;
+  &:before{
+    position: fixed;
+    z-index: -1;
+    content: '';
+    width: 174%;
+    height: 114%;
+    display: block;;
+    background: #090041;
+    transform: rotate(-118.5deg);
+  }
+}
+

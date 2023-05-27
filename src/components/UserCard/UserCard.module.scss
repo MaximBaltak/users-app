@@ -1,0 +1,44 @@
+.card{
+  margin: 0 auto 0;
+  width: 500px;
+  min-height: 152px;
+  background: #FFFFFF;
+  box-shadow: 0 0 28px rgba(0, 0, 0, 0.73);
+  border-radius: 28px;
+  padding: 20px;
+  @media screen and (max-width: 624px) {
+    width: 95%;
+  }
+}
+.flex{
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex_last{
+  margin-top: 5px;
+  justify-content: end;
+}
+.flex_desc{
+  margin-top: 46px;
+  justify-content: space-between;
+}
+.card_title{
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+.card_author{
+  font-weight: 700;
+  font-size: 16px;
+  color: #696767;
+}
+.card_desc{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #696767;
+}
