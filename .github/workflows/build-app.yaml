@@ -1,6 +1,6 @@
 name: 'build app'
 on:
-  pull-requests:
+  pull-request:
     branches:
       - master
 jobs:
