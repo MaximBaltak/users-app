@@ -18,4 +18,4 @@ jobs:
       - name: 'prettier format'
         run: npm run prettier
       - name: 'eslint check'
-        run: npm run lint
+        run: npx eslint --max-warnings 0
