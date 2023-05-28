@@ -1,6 +1,6 @@
 import React, { CSSProperties, FC } from 'react'
 import styles from './Button.module.scss'
-interface ButtonProps {
+export interface ButtonProps {
   text: string
   width?: string
   height?: string

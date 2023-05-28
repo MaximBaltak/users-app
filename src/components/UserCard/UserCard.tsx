@@ -1,7 +1,7 @@
 import React, { FC } from 'react'
 import styles from './UserCard.module.scss'
 import { TypeUser } from '../../types/typeUser'
-interface UserCardProps {
+export interface UserCardProps {
   user: TypeUser
 }
 const UserCard: FC<UserCardProps> = ({ user }) => {

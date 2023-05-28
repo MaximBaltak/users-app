@@ -1,10 +1,10 @@
-name: eslint
+name: test
 on:
   pull_request:
     branches:
       - master
 jobs:
-  eslint:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: clone repository
@@ -15,7 +15,5 @@ jobs:
           node-version: '16.x'
       - name: install dependencies
         run: npm install
-      - name: prettier format
-        run: npm run prettier
-      - name: eslint check
-        run: npx eslint --max-warnings 0 ./src
+      - name: test run
+        run: npm run test
