@@ -17,12 +17,18 @@ const MainPage = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Пользователи</h1>
-      <div style={{ marginLeft: '50px', alignSelf: 'start' }}>
+      <div style={{ marginLeft: '50px', alignSelf: 'start', display:'flex',columnGap:'30px' }}>
         <Button
           text="Обновить"
           background={'#00E894'}
           color="white"
           action={update}
+        />
+        <Button
+          text="Кнопка"
+          background={'#ff4343'}
+          color="white"
+          action={() => {}}
         />
       </div>
       <ul className={styles.list}>
